@@ -9,7 +9,7 @@ Here you will find the official collection of RunPod endpoint workers.
 
 The workers in this collection follow a [worker template](https://github.com/runpod-workers/worker-template) which includes some basic CI/CD functionality. This template can be used to create new custom workers.
 
-## Image Based Workers
+## 🖼️ | Image Based Workers
 
 - [Stable Diffusion v1.5](https://github.com/runpod-workers/worker-stable_diffusion_v1)
   - OpenJourney
@@ -21,7 +21,7 @@ The workers in this collection follow a [worker template](https://github.com/run
 - [Controlnet](https://github.com/runpod-workers/worker-controlnet)
 - [Dream Booth](https://github.com/runpod-workers/worker-dreambooth)
 
-## Audio Based Workers
+## 🎧 | Audio Based Workers
 
 - [Whisper](https://github.com/runpod-workers/worker-whisper)
 
