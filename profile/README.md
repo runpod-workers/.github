@@ -1,7 +1,7 @@
 <div align="center">
 <h1>RunPod | Workers</h1>
 
-Welcome to [RunPod Workers](https://www.runpod.io/), the official collection of RunPod endpoint workers. Our goal is to provide a robust and diverse set of workers to enhance the RunPod ecosystem and empower end-users and developers alike.
+Welcome to RunPod Workers, the official collection of RunPod endpoint workers. Our goal is to provide a robust and diverse set of workers to enhance the RunPod ecosystem and empower end-users and developers alike.
 </div>
 
 ## Worker Template
