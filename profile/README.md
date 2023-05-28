@@ -10,21 +10,15 @@ The workers in this collection follow a [worker template](https://github.com/run
 
 ## Worker Collection
 
-### 🖼️ | Image Based Workers
-
-- [Stable Diffusion v1.5](https://github.com/runpod-workers/worker-stable_diffusion_v1)
-  - OpenJourney
-  - Realistic Vision
-  - Anything v3
-  - Anything v4
-- [Kandinsky](https://github.com/runpod-workers/worker-kandinsky)
-- [Real-ESRGAN](https://github.com/runpod-workers/worker-esrgan)
-- [Controlnet](https://github.com/runpod-workers/worker-controlnet)
-- [Dream Booth](https://github.com/runpod-workers/worker-dreambooth)
-
-### 🎧 | Audio Based Workers
-
-- [Whisper](https://github.com/runpod-workers/worker-whisper)
+| Worker                                                                                   | Docker Image                                                                                    | API Docs                                                         |
+|------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| 🖼️ [AUTOMATIC111](https://github.com/runpod-workers/worker-a1111)                        | [runpod/ai-api-a1111](https://hub.docker.com/r/runpod/ai-api-a1111)                             | Not Available                                                    |
+| 🖼️ [Stable Diffusion v1.5](https://github.com/runpod-workers/worker-stable_diffusion_v1) | [runpod/ai-api-stable-diffusion-v1](https://hub.docker.com/r/runpod/ai-api-stable-diffusion-v1) | [Endpoint](https://docs.runpod.io/reference/stable-diffusion-v1) |
+| 🖼️ [Kandinsky](https://github.com/runpod-workers/worker-kandinsky)                       | [runpod/ai-api-kandinsky-v2](https://hub.docker.com/r/runpod/ai-api-kandinsky-v2)               | [Endpoint](https://docs.runpod.io/reference/kandinsky-21)        |
+| 🖼️ [Real-ESRGAN](https://github.com/runpod-workers/worker-esrgan)                        | [runpod/ai-api-esrgan](https://hub.docker.com/r/runpod/ai-api-esrgan)                           | [Endpoint](https://docs.runpod.io/reference/real-esrgan)         |
+| 🖼️ [Controlnet](https://github.com/runpod-workers/worker-controlnet)                     | [runpod/ai-api-controlnet](https://hub.docker.com/r/runpod/ai-api-controlnet)                   | [Endpoint](https://docs.runpod.io/reference/controlnet-canny)    |
+| 🖼️ [Dream Booth](https://github.com/runpod-workers/worker-dreambooth)                    | [runpod/ai-api-dreambooth-v1](https://hub.docker.com/r/runpod/ai-api-dreambooth-v1)             | [Endpoint](https://docs.runpod.io/reference/dreambooth-sd-v15)   |
+| 🎧 [Whisper](https://github.com/runpod-workers/worker-whisper)                           | [runpod/ai-api-whisper](https://hub.docker.com/r/runpod/ai-api-whisper)                         | [Endpoint](https://docs.runpod.io/reference/whisper)             |
 
 ## Sample Inputs
 
