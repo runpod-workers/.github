@@ -1,0 +1,4 @@
+{
+    "name": "CI | Update runpod package version",
+    "description": "Updates runpod package version in requirements.txt and creates a commit + PR"
+}
