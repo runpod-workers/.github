@@ -1,3 +1,5 @@
+# IMPORTANT: Repo must be included in the matrix list of the runpod-python dispatcher workflow.
+
 name: CI | Update runpod package version
 
 on:
