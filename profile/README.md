@@ -8,6 +8,11 @@ Welcome to RunPod Workers, the official collection of RunPod endpoint workers. O
 
 The workers in this collection follow a [worker template](https://github.com/runpod-workers/worker-template) which includes some basic CI/CD functionality. This template can be used to create new custom workers.
 
+### Community Guides
+
+[Hello World](https://github.com/blib-la/runpod-worker-helloworld)
+[Comfy Worker](https://github.com/blib-la/runpod-worker-comfy)
+
 ## Worker Collection
 
 | Type | Worker                                                                                | Docker Image                                                                                    | API Docs                                                         |
