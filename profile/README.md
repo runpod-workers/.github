@@ -28,7 +28,7 @@ The workers in this collection follow a [worker template](https://github.com/run
 | 🎞️   | [Deforum](https://github.com/runpod-workers/worker-deforum)                           | [runpod/ai-api-deforum](https://hub.docker.com/r/runpod/ai-api-deforum)                         | [Endpoint](https://docs.runpod.io/reference/deforum)             |
 | 🎧   | [Whisper](https://github.com/runpod-workers/worker-whisper)                           | [runpod/ai-api-whisper](https://hub.docker.com/r/runpod/ai-api-whisper)                         | [Endpoint](https://docs.runpod.io/reference/whisper)             |
 | 🎧   | [Faster Whisper](https://github.com/runpod-workers/worker-faster_whisper)             | [runpod/ai-api-whisper](https://hub.docker.com/r/runpod/ai-api-faster-whisper)                  | [Endpoint](https://docs.runpod.io/reference/faster-whisper)      |
-| 💬   | [vLLM](https://github.com/runpod-workers/worker-vllm)                                 | [runpod/worker-vllm](https://hub.docker.com/r/runpod/worker-vllm)          |  Not Available                                                                |
+| 💬   | [vLLM](https://github.com/runpod-workers/worker-vllm)                                 | [runpod/worker-vllm](https://hub.docker.com/r/runpod/worker-vllm)          |  [Endpoint](https://docs.runpod.io/serverless/workers/vllm/overview)                                                                |
 
 ## Sample Inputs
 
