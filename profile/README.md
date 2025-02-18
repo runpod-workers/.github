@@ -15,21 +15,23 @@ The workers in this collection follow a [worker template](https://github.com/run
 
 ## Worker Collection
 
-| Type | Worker                                                                                | Docker Image                                                                                    | API Docs                                                         |
-|------|---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
-| 🖼️   | [AUTOMATIC111](https://github.com/runpod-workers/worker-a1111)                        | [runpod/ai-api-a1111](https://hub.docker.com/r/runpod/ai-api-a1111)                             | Not Available                                                    |
-| 🖼️   | [Stable Diffusion v1.5](https://github.com/runpod-workers/worker-stable_diffusion_v1) | [runpod/ai-api-stable-diffusion-v1](https://hub.docker.com/r/runpod/ai-api-stable-diffusion-v1) | [Endpoint](https://docs.runpod.io/reference/stable-diffusion-v1) |
-| 🖼️   | [Stable Diffusion v2](https://github.com/runpod-workers/worker-stable_diffusion_v2)   | [runpod/ai-api-stable-diffusion-v2](https://hub.docker.com/r/runpod/ai-api-stable-diffusion-v2) | [Endpoint](https://docs.runpod.io/reference/stable-diffusion-v2) |
-| 🖼️   | [Kandinsky](https://github.com/runpod-workers/worker-kandinsky)                       | [runpod/ai-api-kandinsky-v2](https://hub.docker.com/r/runpod/ai-api-kandinsky-v2)               | [Endpoint](https://docs.runpod.io/reference/kandinsky-21)        |
-| 🖼️   | [Real-ESRGAN](https://github.com/runpod-workers/worker-esrgan)                        | [runpod/ai-api-esrgan](https://hub.docker.com/r/runpod/ai-api-esrgan)                           | [Endpoint](https://docs.runpod.io/reference/real-esrgan)         |
-| 🖼️   | [Controlnet](https://github.com/runpod-workers/worker-controlnet)                     | [runpod/ai-api-controlnet](https://hub.docker.com/r/runpod/ai-api-controlnet)                   | [Endpoint](https://docs.runpod.io/reference/controlnet-canny)    |
-| 🖼️   | [Dream Booth](https://github.com/runpod-workers/worker-dreambooth)                    | [runpod/ai-api-dreambooth-v1](https://hub.docker.com/r/runpod/ai-api-dreambooth-v1)             | [Endpoint](https://docs.runpod.io/reference/dreambooth-sd-v15)   |
-| 🖼️   | [Stable Diffusion XL](https://github.com/runpod-workers/worker-sdxl)                  | [runpod/ai-api-sdxl](https://hub.docker.com/r/runpod/ai-api-sdxl)                               | [Endpoint](https://docs.runpod.io/reference/stable-diffusion-xl) |
-| 🎞️   | [Deforum](https://github.com/runpod-workers/worker-deforum)                           | [runpod/ai-api-deforum](https://hub.docker.com/r/runpod/ai-api-deforum)                         | [Endpoint](https://docs.runpod.io/reference/deforum)             |
-| 🎧   | [Whisper](https://github.com/runpod-workers/worker-whisper)                           | [runpod/ai-api-whisper](https://hub.docker.com/r/runpod/ai-api-whisper)                         | [Endpoint](https://docs.runpod.io/reference/whisper)             |
-| 🎧   | [Faster Whisper](https://github.com/runpod-workers/worker-faster_whisper)             | [runpod/ai-api-whisper](https://hub.docker.com/r/runpod/ai-api-faster-whisper)                  | [Endpoint](https://docs.runpod.io/reference/faster-whisper)      |
-| 💬   | [vLLM](https://github.com/runpod-workers/worker-vllm)                                 | [runpod/worker-vllm](https://hub.docker.com/r/runpod/worker-vllm)                               | [Endpoint](https://docs.runpod.io/serverless/workers/vllm/overview) |
-| 📊   | [Infinity Embedding](https://github.com/runpod-workers/worker-infinity-embedding)     | [runpod/worker-infinity-embedding](https://hub.docker.com/r/runpod/worker-infinity-embedding)   | Not Available                                                    |                                                             |
+Here's the table with the API Docs column removed:
+
+| Type | Worker                                                                                | Docker Image                                                                                    |
+|------|---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| 🖼️   | [AUTOMATIC111](https://github.com/runpod-workers/worker-a1111)                        | [runpod/ai-api-a1111](https://hub.docker.com/r/runpod/ai-api-a1111)                             |
+| 🖼️   | [Stable Diffusion v1.5](https://github.com/runpod-workers/worker-stable_diffusion_v1) | [runpod/ai-api-stable-diffusion-v1](https://hub.docker.com/r/runpod/ai-api-stable-diffusion-v1) |
+| 🖼️   | [Stable Diffusion v2](https://github.com/runpod-workers/worker-stable_diffusion_v2)   | [runpod/ai-api-stable-diffusion-v2](https://hub.docker.com/r/runpod/ai-api-stable-diffusion-v2) |
+| 🖼️   | [Kandinsky](https://github.com/runpod-workers/worker-kandinsky)                       | [runpod/ai-api-kandinsky-v2](https://hub.docker.com/r/runpod/ai-api-kandinsky-v2)               |
+| 🖼️   | [Real-ESRGAN](https://github.com/runpod-workers/worker-esrgan)                        | [runpod/ai-api-esrgan](https://hub.docker.com/r/runpod/ai-api-esrgan)                           |
+| 🖼️   | [Controlnet](https://github.com/runpod-workers/worker-controlnet)                     | [runpod/ai-api-controlnet](https://hub.docker.com/r/runpod/ai-api-controlnet)                   |
+| 🖼️   | [Dream Booth](https://github.com/runpod-workers/worker-dreambooth)                    | [runpod/ai-api-dreambooth-v1](https://hub.docker.com/r/runpod/ai-api-dreambooth-v1)             |
+| 🖼️   | [Stable Diffusion XL](https://github.com/runpod-workers/worker-sdxl)                  | [runpod/ai-api-sdxl](https://hub.docker.com/r/runpod/ai-api-sdxl)                               |
+| 🎞️   | [Deforum](https://github.com/runpod-workers/worker-deforum)                           | [runpod/ai-api-deforum](https://hub.docker.com/r/runpod/ai-api-deforum)                         |
+| 🎧   | [Whisper](https://github.com/runpod-workers/worker-whisper)                           | [runpod/ai-api-whisper](https://hub.docker.com/r/runpod/ai-api-whisper)                         |
+| 🎧   | [Faster Whisper](https://github.com/runpod-workers/worker-faster_whisper)             | [runpod/ai-api-whisper](https://hub.docker.com/r/runpod/ai-api-faster-whisper)                  |
+| 💬   | [vLLM](https://github.com/runpod-workers/worker-vllm)                                 | [runpod/worker-vllm](https://hub.docker.com/r/runpod/worker-vllm)                               |
+| 📊   | [Infinity Embedding](https://github.com/runpod-workers/worker-infinity-embedding)     | [runpod/worker-infinity-embedding](https://hub.docker.com/r/runpod/worker-infinity-embedding)   |                   |                                                             |
 
 ## Sample Inputs
 
