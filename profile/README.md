@@ -31,7 +31,7 @@ Here's the table with the API Docs column removed:
 | 🎧   | [Whisper](https://github.com/runpod-workers/worker-whisper)                           | [runpod/ai-api-whisper](https://hub.docker.com/r/runpod/ai-api-whisper)                         |
 | 🎧   | [Faster Whisper](https://github.com/runpod-workers/worker-faster_whisper)             | [runpod/ai-api-whisper](https://hub.docker.com/r/runpod/ai-api-faster-whisper)                  |
 | 💬   | [vLLM](https://github.com/runpod-workers/worker-vllm)                                 | [runpod/worker-vllm](https://hub.docker.com/r/runpod/worker-vllm)                               |
-| 📊   | [Infinity Embedding](https://github.com/runpod-workers/worker-infinity-embedding)     | [runpod/worker-infinity-embedding](https://hub.docker.com/r/runpod/worker-infinity-embedding)   |                   |                                                             |
+| 📊   | [Infinity Embedding](https://github.com/runpod-workers/worker-infinity-embedding)     | [runpod/worker-infinity-embedding](https://hub.docker.com/r/runpod/worker-infinity-embedding)   |                   | 🔄   | [Websocket](https://github.com/runpod-workers/worker-websocket)                       |                                                                                                 |
 
 ## Sample Inputs
 
