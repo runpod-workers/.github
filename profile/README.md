@@ -1,7 +1,7 @@
 <div align="center">
-<h1>RunPod | Workers</h1>
+<h1>Runpod | Workers</h1>
 
-Welcome to RunPod Workers, the official collection of RunPod endpoint workers. Our goal is to provide a robust and diverse set of workers to enhance the RunPod ecosystem and empower end-users and developers alike.
+Welcome to Runpod Workers, the official collection of RunPod endpoint workers. Our goal is to provide a robust and diverse set of workers to enhance the Runpod ecosystem and empower users to build their own.
 </div>
 
 ## Worker Template
@@ -14,8 +14,6 @@ The workers in this collection follow a [worker template](https://github.com/run
 [Comfy Worker](https://github.com/blib-la/runpod-worker-comfy)
 
 ## Worker Collection
-
-Here's the table with the API Docs column removed:
 
 | Type | Worker                                                                                | Docker Image                                                                                    |
 |------|---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
@@ -31,7 +29,8 @@ Here's the table with the API Docs column removed:
 | 🎧   | [Whisper](https://github.com/runpod-workers/worker-whisper)                           | [runpod/ai-api-whisper](https://hub.docker.com/r/runpod/ai-api-whisper)                         |
 | 🎧   | [Faster Whisper](https://github.com/runpod-workers/worker-faster_whisper)             | [runpod/ai-api-whisper](https://hub.docker.com/r/runpod/ai-api-faster-whisper)                  |
 | 💬   | [vLLM](https://github.com/runpod-workers/worker-vllm)                                 | [runpod/worker-vllm](https://hub.docker.com/r/runpod/worker-vllm)                               |
-| 📊   | [Infinity Embedding](https://github.com/runpod-workers/worker-infinity-embedding)     | [runpod/worker-infinity-embedding](https://hub.docker.com/r/runpod/worker-infinity-embedding)   |                   | 🔄   | [Websocket](https://github.com/runpod-workers/worker-websocket)                       |                                                                                                 |
+| 📊   | [Infinity Embedding](https://github.com/runpod-workers/worker-infinity-embedding)     | [runpod/worker-infinity-embedding](https://hub.docker.com/r/runpod/worker-infinity-embedding)   |
+| 🔄   | [Websocket](https://github.com/runpod-workers/worker-websocket)                       | :x:                                                                                             |
 
 ## Sample Inputs
 
@@ -47,6 +46,6 @@ Join our Discord community and get involved in the conversation.
 
 <div align="center">
 
-<a target="_blank" href="https://discord.gg/pJ3P2DbUUq">![Discord Banner 2](https://discordapp.com/api/guilds/912829806415085598/widget.png?style=banner2)</a>
+<a target="_blank" href="https://discord.gg/pJ3P2DbUUq">![Discord Banner](https://discordapp.com/api/guilds/912829806415085598/widget.png?style=banner2)</a>
 
 </div>
